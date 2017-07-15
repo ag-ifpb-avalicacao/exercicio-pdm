@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -57,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="New Text"
-            android:id="@+id/textView2"
+            android:id="@+id/logradouro"
             android:textSize="22dp"
             android:layout_x="10dp"
             android:layout_y="220dp" />
@@ -67,6 +68,7 @@
             android:layout_height="wrap_content"
             android:text="Bairro:"
             android:id="@+id/textView3"
+            android:textSize="18dp"
             android:layout_x="10dp"
             android:layout_y="260dp" />
 
@@ -74,7 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="New Text"
-            android:id="@+id/textView4"
+            android:id="@+id/bairro"
             android:textSize="22dp"
             android:layout_x="10dp"
             android:layout_y="280dp" />
@@ -92,7 +94,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="New Text"
-            android:id="@+id/textView6"
+            android:id="@+id/municipioUf"
             android:layout_x="10dp"
             android:layout_y="340dp"
             android:textSize="22dp" />
